@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nulls from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-nulls@deno/mod.js';
+import nulls from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-nulls@v0.1.0-deno/mod.js';
 ```
 
 #### nulls( len )
@@ -85,7 +85,7 @@ var out = nulls( 3 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import nulls from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-nulls@deno/mod.js';
+import nulls from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-nulls@v0.1.0-deno/mod.js';
 
 // Create a null value array:
 var arr = nulls( 10 );
