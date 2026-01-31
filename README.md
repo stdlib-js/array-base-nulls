@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nulls from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-nulls@esm/index.mjs';
+import nulls from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-nulls@v0.1.0-esm/index.mjs';
 ```
 
 #### nulls( len )
@@ -90,7 +90,7 @@ var out = nulls( 3 );
 <body>
 <script type="module">
 
-import nulls from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-nulls@esm/index.mjs';
+import nulls from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-nulls@v0.1.0-esm/index.mjs';
 
 // Create a null value array:
 var arr = nulls( 10 );
