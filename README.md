@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import nulls from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-nulls@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-nulls/tags). For example,
+
+```javascript
 import nulls from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-nulls@v0.1.0-deno/mod.js';
 ```
 
@@ -85,7 +90,7 @@ var out = nulls( 3 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import nulls from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-nulls@v0.1.0-deno/mod.js';
+import nulls from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-nulls@deno/mod.js';
 
 // Create a null value array:
 var arr = nulls( 10 );
